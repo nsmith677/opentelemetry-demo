@@ -1,0 +1,18 @@
+{
+  "name": "OpenTelemetry Demo",
+  "install": "./.cursor/install.sh",
+  "start": "./.cursor/start.sh",
+  "terminals": [
+    {
+      "name": "demo-logs",
+      "command": "./.cursor/logs.sh",
+      "description": "Follows aggregated logs from all OpenTelemetry Demo containers."
+    }
+  ],
+  "ports": [
+    {
+      "name": "frontend-proxy",
+      "port": 8080
+    }
+  ]
+}
