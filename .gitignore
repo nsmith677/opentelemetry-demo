@@ -17,7 +17,11 @@
 # AI Agents
 .claude/
 .codex/
-.cursor/
+.cursor/*
+!.cursor/environment.json
+!.cursor/install.sh
+!.cursor/start.sh
+!.cursor/logs.sh
 .cursorrules
 
 # Build artifacts
